@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student application</title>
+	</head>
+	<body>
+		<h3>Registration form</h3>
+		<form action="https://www.aporganisation.com" method="get">
+			<fieldset>
+				<legend>personal info</legend>
+			NAME:
+			<input type="text" name="firstname" size="15" required="required"><br><br>
+			DOB:
+			<input type="date" name="dob"><br>
+			<br>
+			Email:
+			<input type="email" name="email"><br>
+			<br>
+			GENDER:
+			<input type="radio" name="GENDER" value="male" >male
+			<input type="radio" name="GENDER" value="female">female
+			<br><br>
+		    </fieldset>
+		    <fieldset>
+		      <legend>education details</legend>  
+			    COLLEGE NAME:
+			    <input type="text" name="collegename"><br>
+			    <br>
+			    BRANCH:
+			    <select name=branch size="2">
+				  <option value="cse">cse</option>
+				  <option value="ece">ece</option>
+				  <option value="mech">mech</option>
+				  <option value="eee">eee</option>
+			    </select><br>
+			      <br>ADDRESS:
+			      <textarea name="address" rows="5" cols="10">enter your address...</textarea>
+			      <br>
+			      PHONE:
+			      <input type="number" name="phone number"><br>
+			      upload your file:
+			      <input type="file" name="file">
+                  <br>
+            </fieldset>
+            
+            <br><input type="checkbox" name="details">The above details are filled by me
+            <br>
+            SUBMIT
+            <input type="submit" name="submit" value="submit">
+
+			
+		</form>
+	</body>
+</html>
